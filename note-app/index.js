@@ -59,8 +59,3 @@ function create() {
 }
 
 addBtn.addEventListener('click', create);
-window.addEventListener('keydown', (e) => {
-    if(e.which == 13) {
-        check();
-    }
-})
