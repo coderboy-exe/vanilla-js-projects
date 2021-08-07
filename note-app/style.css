@@ -39,6 +39,7 @@ header {
     margin: 0.2rem;
     border-radius: 1rem;
     outline: none;
+    text-align: center;
 }
 
 .add-btn {
@@ -81,6 +82,7 @@ header {
     border-right: 5px solid;
     width: 25rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .edit-btn {
@@ -100,3 +102,10 @@ header {
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 635px) {
+
+    .delete-btn {
+        padding-right: 1rem;
+    }
+} 
